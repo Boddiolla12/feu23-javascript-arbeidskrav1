@@ -13,7 +13,3 @@ describe("Oppgave 00", () => {
     expect(result).toBe(987654321);
   });
 });
-
-// DEtte er en commit
-// what about
-//hva har skjedd
