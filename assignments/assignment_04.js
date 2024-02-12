@@ -1,3 +1,3 @@
 export default function combineAllIngredients(dryIngredients, wetIngredients) {
-    // Skriv koden her
+  return [...dryIngredients, ...wetIngredients];
 }

@@ -1,3 +1,3 @@
 export default function getFullName(person) {
-    // Skriv koden her
+  return `${person.firstName} ${person.lastName}`;
 }
