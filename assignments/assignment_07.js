@@ -31,7 +31,7 @@ export function decrypt(message, key) {
   for (let i = 0; i < message.length; i++) {
     let char = message[i];
 
-    if (char.match(/[a-z]/i)) {
+    if (char.match(/[a-zæøå]/i)) {
       let code = message.charCodeAt(i);
 
       if (char === char.toUpperCase()) {
